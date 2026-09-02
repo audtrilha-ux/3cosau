@@ -1,0 +1,8 @@
+{
+  "name": "Remix 3eatcru OS",
+  "description": "A standalone operating platform and retail management ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

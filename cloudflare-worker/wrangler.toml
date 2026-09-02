@@ -1,0 +1,13 @@
+name = "3eatcru-central-worker"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+
+[vars]
+CENTRAL_ADMIN_USER = "admin"
+# No production, configure as environment secret
+# CENTRAL_ADMIN_PASS = "3eatcru-master"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "3eatcru_central_db"
+database_id = "d086588a-2115-4682-beea-211cbfbe9ea7"
